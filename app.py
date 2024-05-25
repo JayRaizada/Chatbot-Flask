@@ -11,6 +11,3 @@ def index():
     res = get_res(req.get('body'))
     return jsonify(res)
     
-
-if __name__ == "__main__":
-    app.run(debug=True)
